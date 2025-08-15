@@ -21,7 +21,30 @@ function App() {
     <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
       {/* Columna izquierda vacía o para contenido adicional */}
       <div>
-        <img src={evento} className="" alt="evento" />
+        <img src={evento} className="pb-5" alt="evento" />
+        <div className="bg-gray-900 rounded-lg p-6 shadow-lg text-white space-y-4">
+          <h2 className="text-xl font-bold mb-2">Programa</h2>
+
+          <div>
+            <h3 className="font-semibold">Viernes 15 de Agosto de 2025</h3>
+            <ul className="list-disc pl-5 space-y-1">
+              <li>8:00 hrs - Colocar pista en cancha</li>
+              <li>9:30 hrs - Ronda de prácticas</li>
+              <li>10:00 hrs - Inicio de Clasificatoria</li>
+              <li>19:00 hrs - Fin de actividades</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold mt-4">Sábado 16 de Agosto de 2025</h3>
+            <ul className="list-disc pl-5 space-y-1">
+              <li>8:00 hrs - Llegada de los pilotos</li>
+              <li>9:00 hrs - Inicio Brackets Finalistas</li>
+              <li>17:00 hrs - Final</li>
+              <li>18:00 hrs - Fin de actividades</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       {/* Columna derecha con el contenido formateado */}
